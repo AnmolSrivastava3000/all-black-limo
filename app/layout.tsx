@@ -76,7 +76,7 @@ export default function RootLayout({
   };
 
   return (
-    <html lang="en" className={`${cormorant.variable} ${jakarta.variable}`}>
+    <html lang="en" className={`${cormorant.variable} ${jakarta.variable}`} suppressHydrationWarning>
       <body className="font-sans bg-obsidian text-zinc-100 antialiased selection:bg-champagne selection:text-obsidian">
         <script
           type="application/ld+json"
