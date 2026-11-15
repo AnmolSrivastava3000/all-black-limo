@@ -27,7 +27,9 @@ export default function Fleet() {
               className="bg-obsidian border border-white/10 hover:border-champagne/40 transition-colors overflow-hidden flex flex-col justify-between"
             >
               <div>
-                <div className="relative h-64 overflow-hidden">
+                <div className="relative h-64 overflow-hidden"
+                style={{ position: "relative", height: "16rem" }}
+                >
                   <Image
                     src={vehicle.image}
                     alt={vehicle.name}

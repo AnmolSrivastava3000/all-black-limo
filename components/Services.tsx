@@ -29,7 +29,9 @@ export default function Services() {
               }`}
             >
               <div>
-                <div className="relative h-56 overflow-hidden">
+                <div className="relative h-56 overflow-hidden"
+                style={{ position: "relative", height: "14rem" }}
+                >
                   <Image
                     src={service.image}
                     alt={service.title}

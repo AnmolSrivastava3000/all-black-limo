@@ -9,12 +9,16 @@ export default function Hero() {
       id="home"
       className="relative min-h-screen pt-28 pb-20 lg:pt-36 lg:pb-28 flex items-center overflow-hidden border-b border-white/10"
     >
-      <div className="absolute inset-0 z-0">
+      <div
+        className="absolute inset-0 z-0"
+        style={{ position: "absolute", inset: 0 }}
+      >
         <Image
           src="https://images.unsplash.com/photo-1555215695-3004980ad54e?auto=format&fit=crop&w=2000&q=85"
           alt="All Black Limo luxury chauffeur sedan in Seattle"
           fill
           priority
+          sizes="100vw"
           className="object-cover object-center opacity-35"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-obsidian via-obsidian/90 to-obsidian/65" />
